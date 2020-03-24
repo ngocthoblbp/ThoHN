@@ -1,0 +1,102 @@
+/* new update */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.nav{
+    padding: 0 28px;
+    text-transform: uppercase;
+}
+    .nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        line-height: 70px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        padding: 0 10px;
+        font-size: 1.2rem;
+        color: rgb(75, 73, 73);
+
+    }
+    .item_2{
+        flex-grow: 1;
+    }
+    .header__banner{
+        background-image: url(./img/lodging.png);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        padding-top: 170px;
+        color: ivory;
+        padding-left: 36px;
+    }
+    .header__description h1{
+        font-size: 2.6rem;      
+        margin-bottom: 15px;
+    }
+    .header__description span{
+        font-size: 1.4rem;
+    }
+    .show_img{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    ._img {
+        width: calc(33.33% - 13px);
+    }
+    ._img img{
+        width: 100%;
+        margin-top: 26px;
+    }
+    ._3cot_des{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    ._1cot_des{
+        width: calc(33.33% - 26px)
+
+    }
+    .body_img{
+        padding-top: 36px;
+        background-color: rgb(228,228,228);
+       padding-bottom: 32px;
+    }
+    .list_img_des h3{
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+
+    }
+    .list_img_des span{
+        display: block;
+        margin-bottom: 40px;
+        
+    }
+    .info{
+        padding-top: 30px;
+        padding-bottom: 60px;
+        background-color: rgb(240,240,240);
+    }
+    ._1cot_des h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+
+    }
+    ._1cot_des p{
+        margin-bottom: 10px;
+        color: rgb(78, 74, 74);
+
+    }
+    ._1cot_des a{
+        color: darkcyan;
+    }

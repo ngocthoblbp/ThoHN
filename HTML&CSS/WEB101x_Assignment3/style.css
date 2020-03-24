@@ -1,0 +1,238 @@
+/* new update */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.nav {
+    padding: 0 28px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    color: rgb(75, 73, 73);
+}
+
+.item_2 {
+    flex-grow: 1;
+}
+
+.header__banner {
+    background-image: url(./img/lodging.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 170px;
+    color: ivory;
+    padding-left: 36px;
+}
+
+.header__description h1 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+}
+
+.header__description span {
+    font-size: 1.4rem;
+}
+
+.show_img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+._img {
+    width: calc(33.33% - 13px);
+}
+
+._img img {
+    width: 100%;
+    margin-top: 26px;
+}
+
+._3cot_des {
+    display: flex;
+    justify-content: space-around;
+}
+
+._1cot_des {
+    width: calc(33.33% - 26px)
+}
+
+.body_img {
+    padding-top: 36px;
+    background-color: rgb(228, 228, 228);
+    padding-bottom: 32px;
+}
+
+.list_img_des h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.list_img_des span {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.info {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(240, 240, 240);
+}
+
+._1cot_des h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+._1cot_des p {
+    margin-bottom: 10px;
+    color: rgb(78, 74, 74);
+}
+
+._1cot_des a {
+    color: darkcyan;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .nav {
+        background-color: rgb(85, 99, 112);
+        height: 100px;
+    }
+    .nav ul {
+        line-height: 100px;
+    }
+    .nav ul li a {
+        color: rgb(244, 247, 250);
+    }
+    ._img {
+        width: calc(50% - 13px);
+    }
+    ._img img {
+        margin-bottom: 40px;
+    }
+    .header__banner {
+        background-image: none;
+        height: auto;
+        padding-top: 75px;
+        padding-bottom: 40px;
+        color: rgb(34, 34, 34);
+        border-bottom: 1px solid #ccc;
+        padding-left: 0;
+    }
+    .header__description h1 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    /* .header__description span{
+
+        } */
+    .body_img {
+        background: none;
+        padding-top: 36px;
+    }
+    .list_img_des h3 {
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+    .list_img_des span {
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+    .info {
+        padding-bottom: 20px;
+        background: none;
+    }
+    ._3cot_des {
+        display: flex;
+        flex-direction: column;
+    }
+    ._1cot_des {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    ._1cot_des h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        background-color: rgb(85, 99, 112);
+        padding: 0;
+    }
+    .nav ul li a {
+        color: rgb(244, 247, 250);
+    }
+    .item_2 {
+        flex-grow: 0;
+    }
+    .header__banner {
+        background-image: none;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        color: rgb(34, 34, 34);
+        border-bottom: 1px solid #ccc;
+        padding-left: 0;
+    }
+    .header__banner h1 {
+        margin-bottom: 20px;
+    }
+    .body_img {
+        background: none;
+        padding-top: 45px;
+        padding-bottom: 45;
+    }
+    .list_img_des h3 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    .list_img_des span {
+        font-size: 1.4rem;
+    }
+    ._img {
+        width: calc(100%);
+    }
+    ._img img {
+        margin-bottom: 40px;
+    }
+    .info {
+        background: none;
+        padding-top: 0;
+    }
+    ._3cot_des {
+        display: flex;
+        flex-direction: column;
+    }
+    ._1cot_des {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    ._1cot_des h3 {
+        font-size: 1.8rem;
+    }
+    ._1cot_des a {
+        color: rgb(26, 25, 25);
+    }
+}
